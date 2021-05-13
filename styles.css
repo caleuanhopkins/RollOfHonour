@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
   text-align: center;
   text-transform: uppercase;
@@ -13,8 +19,8 @@ p {
   text-decoration: none;
   cursor: pointer;
   color: #171717;
-  padding-right: 5rem;
-  padding-left: 1rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
   font-size: 1.1rem;
 }
 
@@ -28,4 +34,14 @@ p {
 
 canvas {
   max-height: 65vh;
+}
+
+@media screen and (max-width: 450px) {
+  .links {
+    flex-direction: column;
+  }
+
+  .links a {
+    padding-top: 2rem;
+  }
 }
