@@ -13,7 +13,7 @@ const data = {
     ],
 datasets: [
   {
-    label: "Total Stars",
+    label: "Total Freddos",
     data: [52, 38, 13, 8, 7, 7, 7, 5, 4, 4],
     backgroundColor: [
       "rgba(102, 209, 110, 0.2)",
