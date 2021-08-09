@@ -14,9 +14,9 @@ const data = {
         'Xainarc',
         'Aaron',
         'Harold',
+        'Peek',
         'Stu',
         'Croppy',
-        'Peek',
         'Sulk',
         'Aidan',
         'Maks',
@@ -36,7 +36,7 @@ const data = {
   datasets: [
     {
       label: "Starred Messages",
-      data: [39, 36, 36, 32, 31, 26, 23, 21, 20, 17, 17, 17, 16, 12, 8, 8, 6, 6, 4, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1],
+      data: [39, 36, 36, 32, 31, 26, 23, 21, 20, 17, 17, 17, 16, 12, 8, 8, 8, 6, 4, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1],
       backgroundColor: [
         "rgba(102, 209, 110, 0.2)",
         "rgba(201, 203, 207, 0.2)",
