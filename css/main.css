@@ -1,0 +1,107 @@
+@font-face {
+    font-family: BigNoodleTitling;
+    src: url(../fonts/big_noodle_titling.ttf);
+}
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FEFAE0;
+    font-family: BigNoodleTitling;
+    color: #000;
+}
+
+.navbar {
+    background-color: #CCD5AE;
+}
+
+.navbar .nav-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navbar .nav-container .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .nav-container .logo img {
+    width: 80px;
+    padding: 10px 0;
+}
+
+.navbar .nav-container {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-container a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all .3s ease;
+}
+
+.rhs, .lhs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav-container a:hover {
+    text-decoration: underline;
+    color: #D4A373;
+}
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.home-page h1 {
+    font-size: 64px;
+    color: #D4A373;
+}
+
+.home-page p {
+    font-size: 24px;
+}
+
+.home-page .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.home-page .grid .grid-item {
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 3px 5px 13px -4px rgba(0,0,0,0.25);
+    margin: 15px 10px;
+}
+
+.home-page .grid .grid-item a {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+.home-page .grid .grid-item a p {
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.home-page .grid .grid-item img {
+    width: 50%;
+    padding: 15px 0 30px 0;
+}
+
+.home-page .grid .grid-item img {
+    text-shadow: 3px 5px 13px -4px rgba(0,0,0,0.25);
+}

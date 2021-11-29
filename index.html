@@ -4,17 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <title>Roll of Honour</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Timcord Stats</title>
 </head>
 <body>
-    <h1>Timcord Roll of Honour Stats</h1>
-    <p>Charts Below: (sorry netlify needed an index page)</p>
-    <div class="links">
-        <a href="/perUser.html">Starred Messages Per User</a>
-        <a href="/perMessage.html">Average Per Message</a>
-        <a href="/totalStars.html">Total Stars Per User</a>
-        <a href="/bain.html">Hall of Bain</a>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="nav-container col-12">
+                <div class="lhs col-md-5">
+                        <a href="totalStars.html">Total Stars</a>
+                        <a href="perMessage.html">Average Stars</a>
+                        <a href="perUser.html">Starred Messages</a>
+                </div>
+
+                <div class="logo col-sm-6 col-md-2">
+                    <a href="index.html">
+                        <img src="/images/badge.png" alt="Celtic FC Badge">
+                    </a>
+                </div>
+
+                <div class="rhs col-md-5">
+                        <a href="bain.html">Hall of Bain</a>
+                        <a href="perMessage.html">Snail Bombs</a>
+                        <a href="perUser.html">Timcord Hunnies</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Body -->
+    <div class="home-page container">
+        <div class="col-12">
+            <div class="intro">
+                <h1>Welcome To The Timcord Stats</h1>
+                <p>Choose a category to view more details about each:</p>
+            </div>
+
+            <!-- Grid -->
+            <div class="grid">
+                <div class="grid-item col-sm-12 col-md-5 col-lg-3">
+                    <a href="totalStars.html">
+                        <img src="/images/star-green.png" alt="Star Icon Green">
+                        <p>Total Stars</p>
+                    </a>
+                </div>
+
+                <div class="grid-item white col-sm-12 col-md-5 col-lg-3">
+                    <a href="perMessage.html">
+                        <img src="/images/star-white.png" alt="Star Icon White">
+                        <p>Average Stars</p>
+                    </a>
+                </div>
+
+                <div class="grid-item col-sm-12 col-md-5 col-lg-3">
+                    <a href="perUser.html">
+                        <img src="/images/star.png" alt="Star Icon Orange">
+                        <p>Starred Messages</p>
+                    </a>
+                </div>
+
+                <div class="grid-item col-sm-12 col-md-5 col-lg-3">
+                    <a href="bain.html">
+                        <img src="/images/freddo.png" alt="">
+                        <p>Hall of Bain</p>
+                    </a>
+                </div>
+
+                <div class="grid-item col-sm-12 col-md-5 col-lg-3">
+                    <a href="snailBombs.html">
+                        <img src="/images/snail.png" alt="">
+                        <p>Snail Bombs</p>
+                    </a>
+                </div>
+
+                <div class="grid-item col-sm-12 col-md-5 col-lg-3">
+                    <a href="hunnies.html">
+                        <img src="/images/hun.png" alt="">
+                        <p>Timcord Hunnies</p>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
